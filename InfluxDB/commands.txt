@@ -2,6 +2,7 @@ InfluxDB show commands:
 influx -execute "show databases"
 influx -execute "show measurements" -database="mdt_db"
 influx -execute "show retention policies" -database="mdt_db"
+influx -execute "show field keys" -database="mdt_db"
 influx -execute "show diagnostics"
 influx -execute "show tag values with key=Producer" -database="mdt_db"
 influx -execute "SELECT \"bytes-received\" FROM \"Cisco-IOS-XR-infra-statsd-oper:infra-statistics/interfaces/interface/latest/generic-counters\" \
